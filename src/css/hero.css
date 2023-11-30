@@ -1,0 +1,124 @@
+.hero-section {
+  padding-top: 45px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+}
+.hero-title {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -0.03em;
+  max-width: 335px;
+  margin-bottom: 20px;
+  color: #fcf9f9;
+}
+.hero-title-span {
+  color: #ecd979;
+}
+.hero-link {
+  display: flex;
+  color: #fcf9f9;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  column-gap: 10px;
+  align-items: center;
+  padding: 14px 36px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 15px;
+  width: 155px;
+  margin-left: 70px;
+  margin-bottom: 40px;
+  transition: border-color 250ms linear;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+  border-color: #ecd979;
+  outline: transparent;
+  outline-offset: 4px;
+}
+.hero-pictures {
+  display: none;
+}
+
+.hero-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.37;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: rgba(252, 249, 249, 0.4);
+  max-width: 115px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    padding-top: 65px;
+  }
+  .hero-content {
+    padding-top: 26px;
+  }
+  .hero-title {
+    max-width: 549px;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+  }
+  .hero-link {
+    margin-left: 141px;
+  }
+  .hero-pictures {
+    max-width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hero-picture-star {
+    width: 115px;
+    margin-left: auto;
+  }
+  .hero-star-icon {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 16px;
+    fill: #ecd979;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero-section {
+    padding-top: 85px;
+  }
+  .hero-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    padding-top: 0;
+  }
+  .hero-desktop {
+    padding-top: 94px;
+    margin-left: 40px;
+  }
+  .hero-link {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .hero-title {
+    font-size: 64px;
+    line-height: 1.15;
+    letter-spacing: -0.03em;
+    max-width: 630px;
+  }
+  .hero-desktop {
+    padding-top: 66px;
+  }
+}
